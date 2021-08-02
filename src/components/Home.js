@@ -19,7 +19,7 @@ function Home() {
                 backgroundImg="BRZ.jpg"
                 leftButtonText="Custom Order"
                 rightButtonText="Local Inventory"
-                textColor="inherit"
+                textColor="#FFFFFF"
             />
             <Section
                 title="The 2021 Subuwu Forester"

@@ -75,6 +75,11 @@ const Menu = styled.div`
         font-weight: 600;
         text-transform: uppercase;
         flex-wrap: no-wrap;
+        transition: .2s ease;
+        
+        :hover {
+            color: #004890;
+        }
     }
 
     @media (min-width: 768px) {
@@ -96,6 +101,11 @@ const RightMenu = styled.div`
         font-weight: 600;
         text-transform: uppercase;
         flex-wrap: no-wrap;
+        transition: .2s ease;
+
+        :hover {
+            color: #004890;
+        }
     }
 `
 
@@ -122,6 +132,12 @@ const BurgerNavMenu = styled.div`
     li {
         padding: 15px 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
+        cursor: pointer;
+        transition: .2s ease;
+
+        :hover {
+            color: #004890;
+        }
 
         a {
             font-weight: 600;

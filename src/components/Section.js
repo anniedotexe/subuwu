@@ -89,12 +89,21 @@ const LeftButton = styled.div`
     font-size: 0.9em;
     font-weight: 600;
     cursor: pointer;
+    transition: .2s ease;
+    
+    :hover {
+        background-color: #004890;
+    }
 `
 
 const RightButton = styled(LeftButton)`
     color: #111111;
     background: #FFFFFF;
     opacity: 0.75;
+
+    :hover {
+        color: #FFFFFF;
+    }
 `
 
 const DownArrow = styled(ExpandMoreIcon)`

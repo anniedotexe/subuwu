@@ -5,7 +5,9 @@ This is a Tesla website clone customized for Subuwu (Subaru but its uwu) built w
 **LIVE DEMO** - [TBA]()
 
 <p align="center">
-    <img alt="React" src="https://img.shields.io/badge/-React-grey?style=flat&logo=react&logoColor=61DBFB"/>
+    <img alt="React" src="https://img.shields.io/badge/-React-61DBFB?style=flat&logo=react&logoColor=FFFFFF"/>
+    <img alt="Redux" src="https://img.shields.io/badge/-Redux-764abc?style=flat&logo=redux&logoColor=FFFFFF"/>
+    <img alt="Styled Components" src="https://img.shields.io/badge/-<💅>%20Styled%20Components-grey?style=flat"/>
     <img alt="Open Source? Yes!" src="https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github"/>
 </p>
 
@@ -13,15 +15,14 @@ This is a Tesla website clone customized for Subuwu (Subaru but its uwu) built w
     <img alt="Screenshot" src="./public/img/readme/screenshot.png" width="700px">
 </p>
 
-## Features
-
--
-
 ## Built With
 
 - [React JS](https://reactjs.org/docs/getting-started.html)
-- [Firestore Database](https://firebase.google.com/docs/firestore)
-- Hosted on [Firebase](https://firebase.google.com/docs/hosting/quickstart)
+- [Redux](https://redux.js.org/introduction/getting-started)
+- [React Redux](https://react-redux.js.org/introduction/getting-started)
+- [Styled-Components](https://styled-components.com/docs)
+- [Material UI Icons](https://material-ui.com/components/material-icons/)
+- [React Fade-In](https://github.com/gkaemmer/react-fade-in) for the fade in animation
 
 ---
 
