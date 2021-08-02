@@ -15,6 +15,10 @@ a {
     color: inherit;
 }
 
+li {
+    list-style: none;
+}
+
 @keyframes animateDown {
     0%, 25%, 50%, 75%, 100% {
         transform: translateY(0);

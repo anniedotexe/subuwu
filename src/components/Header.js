@@ -12,71 +12,70 @@ function Header() {
     const cars = useSelector(selectCars);
 
     return (
-        <div>
-            <Container>
-                <div class="logo-container">
-                    <a href="/">
-                        <img src="./img/logo.svg" alt="" />
-                    </a>
-                </div>
-                <Menu>
-                    {cars && cars.map((car, index) => (
-                        <a key={index} href="#">{car}</a>
-                    ))}
-                </Menu>
-                <RightMenu>
-                    <a href="#">Shop</a>
-                    <a href="#">Account</a>
-                    <MenuButton onClick={() => setBurgerStatus(true)} />
-                </RightMenu>
-                <BurgerNavMenu show={burgerStatus}>
-                    <CloseContainer>
-                        <CloseButton onClick={() => setBurgerStatus(false)} />
-                    </CloseContainer>
-                    {cars && cars.map((car, index) => (
-                        <li><a key={index} href="#">{car}</a></li>
-                    ))}
-                    <li><a href="#">All Vehicles</a></li>
-                    <li><a href="#">Certified Pre-Owned</a></li>
-                    <li><a href="#">Future Vehicles & Concepts</a></li>
-                    <li><a href="#">Build & Price</a></li>
-                    <li><a href="#">Compare Vehicles</a></li>
-                    <li><a href="#">Local Inventory</a></li>
-                    <li><a href="#">Special Offers</a></li>
-                    <li><a href="#">View a Brochure</a></li>
-                </BurgerNavMenu>
-            </Container>
-        </div>
+        <Container>
+            <div class="logo-container">
+                <a href="/">
+                    <img src="./img/logo.svg" alt="" />
+                </a>
+            </div>
+            <Menu>
+                {cars && cars.map((car, index) => (
+                    <li>{car}</li>
+                ))}
+            </Menu>
+            <RightMenu>
+                <li>Shop</li>
+                <li>Account</li>
+                <MenuButton onClick={() => setBurgerStatus(true)} />
+            </RightMenu>
+            <BurgerNavMenu show={burgerStatus}>
+                <CloseContainer>
+                    <CloseButton onClick={() => setBurgerStatus(false)} />
+                </CloseContainer>
+                {cars && cars.map((car, index) => (
+                    <li>{car}</li>
+                ))}
+                <li>All Vehicles</li>
+                <li>Certified Pre-Owned</li >
+                <li>Future Vehicles & Concepts</li >
+                <li>Build & Price</li >
+                <li>Compare Vehicles</li >
+                <li>Local Inventory</li >
+                <li>Special Offers</li >
+                <li>View a Brochure</li >
+            </BurgerNavMenu >
+        </Container >
     )
 }
 
 export default Header
 
 const Container = styled.div`
-    padding: 0 20px;
-    min-height: 60px;
-    inset: 0 0 auto 0;
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1;
+            padding: 0 20px;
+            min-height: 60px;
+            inset: 0 0 auto 0;
+            position: fixed;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1;
 
-    .logo-container, .logo-container a {
-        width: 200px;
-    }
-`
+            .logo-container, .logo-container a {
+                width: 200px;
+            }
+            `
 
 const Menu = styled.div`
     display: none;
-    
-    a {
+
+    li {
         padding: 0 10px;
         font-weight: 600;
         text-transform: uppercase;
         flex-wrap: no-wrap;
+        cursor: pointer;
         transition: .2s ease;
-        
+
         :hover {
             color: #004890;
         }
@@ -84,20 +83,21 @@ const Menu = styled.div`
 
     @media (min-width: 768px) {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        flex: 1;
-    }
-`
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+        }
+    `
 
 const RightMenu = styled.div`
     width: 200px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    cursor: pointer;
     gap: 20px;
 
-    a {
+    li {
         font-weight: 600;
         text-transform: uppercase;
         flex-wrap: no-wrap;
@@ -125,11 +125,12 @@ const BurgerNavMenu = styled.div`
     flex-direction: column;
     text-align:
     justify-content: flex-start;
-    
+
     transform: ${props => props.show ? `translateX(0)` : `translateX(100%)`};
     transition: transform .2s ease-in;
 
     li {
+        font - weight: 600;
         padding: 15px 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         cursor: pointer;
@@ -137,10 +138,6 @@ const BurgerNavMenu = styled.div`
 
         :hover {
             color: #004890;
-        }
-
-        a {
-            font-weight: 600;
         }
     }
 `
