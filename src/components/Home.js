@@ -6,27 +6,19 @@ function Home() {
     return (
         <Container>
             <Section
-                title="The all-new 2022 Subuwu BRZ"
-                description="Sports car purity, Subuwu DNA."
-                backgroundImg="BRZ.jpg"
-                leftButtonText="Custom Order"
-                rightButtonText="Existing Inventory"
-                textColor="inherit"
-            />
-            <Section
                 title="Introducing the 2022 Subuwu Outback"
                 description="Go where love takes you."
                 backgroundImg="outback.jpg"
                 leftButtonText="Custom Order"
-                rightButtonText="Existing Inventory"
+                rightButtonText="Local Inventory"
                 textColor="inherit"
             />
             <Section
-                title="The 2022 Subuwu Legacy"
-                description="Love for all the right reasons."
-                backgroundImg="legacy.jpg"
+                title="The all-new 2022 Subuwu BRZ"
+                description="Sports car purity, Subuwu DNA."
+                backgroundImg="BRZ.jpg"
                 leftButtonText="Custom Order"
-                rightButtonText="Existing Inventory"
+                rightButtonText="Local Inventory"
                 textColor="inherit"
             />
             <Section
@@ -34,7 +26,15 @@ function Home() {
                 description="The SUV for all you love."
                 backgroundImg="forester.jpg"
                 leftButtonText="Custom Order"
-                rightButtonText="Existing Inventory"
+                rightButtonText="Local Inventory"
+                textColor="inherit"
+            />
+            <Section
+                title="The 2022 Subuwu Legacy"
+                description="Love for all the right reasons."
+                backgroundImg="legacy.jpg"
+                leftButtonText="Custom Order"
+                rightButtonText="Local Inventory"
                 textColor="inherit"
             />
             <Section

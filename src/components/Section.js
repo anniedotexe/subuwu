@@ -1,28 +1,34 @@
 import React from "react";
 import styled from "styled-components";
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import FadeIn from 'react-fade-in';
+
 
 function Section({ title, description, backgroundImg, leftButtonText, rightButtonText, textColor }) {
     return (
         <Wrap bgImage={backgroundImg}>
-            <ItemText color={textColor}>
-                <h1>{title}</h1>
-                <h2>{description}</h2>
-            </ItemText>
+            <FadeIn transitionDuration="1500">
+                <ItemText color={textColor}>
+                    <h1>{title}</h1>
+                    <h2>{description}</h2>
+                </ItemText>
+            </FadeIn>
             <Buttons>
-                <ButtonGroup>
-                    {leftButtonText &&
-                        <LeftButton>
-                            {leftButtonText}
-                        </LeftButton>
-                    }
-                    {rightButtonText &&
-                        <RightButton>
-                            {rightButtonText}
-                        </RightButton>
-                    }
-                </ButtonGroup>
-                <ExpandMoreIcon style={{ fontSize: 60, fill: "#FFFFFF", overflowX: "hidden", animation: "animateDown infinite 1.5s" }} />
+                <FadeIn>
+                    <ButtonGroup>
+                        {leftButtonText &&
+                            <LeftButton>
+                                {leftButtonText}
+                            </LeftButton>
+                        }
+                        {rightButtonText &&
+                            <RightButton>
+                                {rightButtonText}
+                            </RightButton>
+                        }
+                    </ButtonGroup>
+                </FadeIn>
+                <DownArrow />
             </Buttons>
         </Wrap>
     );
@@ -46,9 +52,13 @@ const Wrap = styled.div`
 
 const ItemText = styled.div`
     margin: 0 20px;
-    padding-top: 12vh;
+    padding-top: 16vh;
     text-align: center;
     color: ${props => `${props.color}`};
+    
+    h2 {
+        font-weight: 400;
+    }
 `
 
 const Buttons = styled.div`
@@ -85,4 +95,12 @@ const RightButton = styled(LeftButton)`
     color: #111111;
     background: #FFFFFF;
     opacity: 0.75;
+`
+
+const DownArrow = styled(ExpandMoreIcon)`
+    margin-bottom: 10px;
+    font-size: 60px;
+    color: #FFFFFF;
+    overflow-x: hidden;
+    animation: animateDown infinite 1.5s;
 `
