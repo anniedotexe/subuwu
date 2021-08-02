@@ -1,14 +1,15 @@
-# [Subuwu (Soob UWU)]()
+# [Subuwu (Soob UWU)](https://subuwu.anniew.xyz/)
 
 This is a Tesla website clone customized for Subuwu (Subaru but its uwu) built with React JS, Redux, and Styled-Components.
 
-**LIVE DEMO** - [TBA]()
+**LIVE DEMO** - [subuwu.anniew.xyz](https://subuwu.anniew.xyz/) OR [subuwu.netlify.app](https://subuwu.netlify.app/)
 
 <p align="center">
     <img alt="React" src="https://img.shields.io/badge/-React-61DBFB?style=flat&logo=react&logoColor=FFFFFF"/>
     <img alt="Redux" src="https://img.shields.io/badge/-Redux-764abc?style=flat&logo=redux&logoColor=FFFFFF"/>
     <img alt="Styled Components" src="https://img.shields.io/badge/-<💅>%20Styled%20Components-grey?style=flat"/>
     <img alt="Open Source? Yes!" src="https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github"/>
+    <img alt="Netlify Deploy Status" src="https://api.netlify.com/api/v1/badges/87975815-cdc6-4c7f-b8c3-7adefa714190/deploy-status"/>
 </p>
 
 <p align="center">
@@ -23,6 +24,7 @@ This is a Tesla website clone customized for Subuwu (Subaru but its uwu) built w
 - [Styled-Components](https://styled-components.com/docs)
 - [Material UI Icons](https://material-ui.com/components/material-icons/)
 - [React Fade-In](https://github.com/gkaemmer/react-fade-in) for the fade in animation
+- Hosted on [Netlify](https://www.netlify.com/)
 
 ---
 
