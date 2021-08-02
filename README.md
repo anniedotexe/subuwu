@@ -1,8 +1,8 @@
-# [Subuwu]()
+# [Subuwu (Soob UWU)]()
 
-This is a Tesla website clone customized for Subuwus built with React JS, Redux, and Styled-Components.
+This is a Tesla website clone customized for Subuwu (Subaru but its uwu) built with React JS, Redux, and Styled-Components.
 
-**LIVE DEMO** - [link]()
+**LIVE DEMO** - [TBA]()
 
 <p align="center">
     <img alt="React" src="https://img.shields.io/badge/-React-grey?style=flat&logo=react&logoColor=61DBFB"/>
@@ -10,7 +10,7 @@ This is a Tesla website clone customized for Subuwus built with React JS, Redux,
 </p>
 
 <p align="center">
-    <img alt="Screenshot" src="./img/readme/screenshot.png" width="700px">
+    <img alt="Screenshot" src="./public/img/readme/screenshot.png" width="700px">
 </p>
 
 ## Features
@@ -22,6 +22,16 @@ This is a Tesla website clone customized for Subuwus built with React JS, Redux,
 - [React JS](https://reactjs.org/docs/getting-started.html)
 - [Firestore Database](https://firebase.google.com/docs/firestore)
 - Hosted on [Firebase](https://firebase.google.com/docs/hosting/quickstart)
+
+---
+
+## Running the Application Yourself
+
+Here's what you need to do to get this running locally on your computer.
+
+1. Clone the project to your machine with `git clone https://github.com/anniedotexe/subuwu.git`
+2. On a command line inside of the application's folder, run `npm start`
+3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser
 
 ---
 
@@ -72,7 +82,5 @@ If you like my content or find this code useful, give it a :star: or support me 
 
 ## Acknowledgments
 
-- [CleverProgrammer](https://www.cleverprogrammer.com/) for their Building Amazon 2.0 tutorial
-  - [Part 1 - Home Page](https://www.youtube.com/watch?v=HkTXe-O1ArM)
-  - [Part 2 - Cart Page](https://www.youtube.com/watch?v=lfxzyE5Gs84)
-  - [Part 3 - Firebase and Firestore Database](https://www.youtube.com/watch?v=FkqZfGEav9c)
+- [CleverProgrammer](https://www.cleverprogrammer.com/) for their [Building the Tesla Clone with ReactJS (Redux + Styled Components)
+  ](https://www.youtube.com/watch?v=lUeS9Wsj6dk&t=106s) tutorial
