@@ -1,6 +1,8 @@
 # [Subuwu (Soob UWU)](https://subuwu.anniew.xyz/)
 
-This is a Tesla website clone customized for Subuwu (Subaru but its uwu) built with React JS, Redux, and Styled-Components.
+This is a responsive Tesla website clone customized for Subuwu (Subaru but its uwu) built with React JS, Redux, and Styled-Components.
+
+_I am not associated with nor speak for this company._
 
 **LIVE DEMO** - [subuwu.anniew.xyz](https://subuwu.anniew.xyz/) OR [subuwu.netlify.app](https://subuwu.netlify.app/)
 

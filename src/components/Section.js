@@ -3,7 +3,6 @@ import styled from "styled-components";
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import FadeIn from 'react-fade-in';
 
-
 function Section({ title, description, backgroundImg, leftButtonText, rightButtonText, textColor }) {
     return (
         <Wrap bgImage={backgroundImg}>
@@ -52,12 +51,17 @@ const Wrap = styled.div`
 
 const ItemText = styled.div`
     margin: 0 20px;
-    padding-top: 16vh;
+    padding-top: 100px;
     text-align: center;
     color: ${props => `${props.color}`};
     
     h2 {
         font-weight: 400;
+    }
+    @media (min-width: 758px) {
+        h2 {
+            max-width: 1200px;
+        }
     }
 `
 
@@ -107,7 +111,7 @@ const RightButton = styled(LeftButton)`
 `
 
 const DownArrow = styled(ExpandMoreIcon)`
-    margin-bottom: 10px;
+    margin-bottom: 2vh;
     font-size: 60px;
     color: #FFFFFF;
     overflow-x: hidden;
