@@ -63,13 +63,6 @@ function Home() {
                 rightButtonText="Find a Participating Retailer"
                 textColor="#FFFFFF"
             />
-            <Section
-                title="Benefits of Ownership"
-                description="As a Subuwu owner, you can enjoy exclusive UwU benefits to complement your UwU lifestyle, vehicle, and interests, such as membership discounts, event perks, and financial programs."
-                backgroundImg="benefits.png"
-                rightButtonText="Learn More"
-                textColor="#inherit"
-            />
             <Footer />
         </Container>
     )
