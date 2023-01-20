@@ -4,7 +4,7 @@ This is a responsive Tesla website clone customized for Subuwu (Subaru but its u
 
 _I am not associated with nor speak for this company._
 
-**LIVE DEMO** - [subuwu.anniew.xyz](https://subuwu.anniew.xyz/) OR [subuwu.netlify.app](https://subuwu.netlify.app/)
+**LIVE DEMO** - [subuwu.anniew.xyz](https://subuwu.anniew.xyz/)
 
 <p align="center">
     <img alt="React" src="https://img.shields.io/badge/-React-61DBFB?style=flat&logo=react&logoColor=FFFFFF"/>
